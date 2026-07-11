@@ -1,6 +1,6 @@
 cask "tts-sidecar" do
-  version "0.4.0"
-  sha256 "42bb6c56fe128a908b6d8a302a3df37cee0d782865f60349b55fa33289969178"
+  version "0.5.0"
+  sha256 "db00e96f123daf5b4004ed54bc503bc83784a2b5d3c83f4b1aa3e349aed1abe1"
 
   url "https://github.com/CristianRojas-SoftwareEngineer/TTS-Sidecar/releases/download/v#{version}/tts-sidecar-#{version}-arm64.dmg"
   name "TTS Sidecar"
@@ -20,6 +20,7 @@ cask "tts-sidecar" do
   zap trash: [
     "~/Library/Application Support/tts-sidecar",
     "~/.cache/huggingface/hub/models--ResembleAI--Chatterbox-Multilingual-es-mx-latam",
+    "~/.cache/huggingface/hub/models--ResembleAI--chatterbox",
   ]
 
   caveats <<~EOS
