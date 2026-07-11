@@ -1,6 +1,6 @@
 cask "tts-sidecar" do
-  version "0.5.0"
-  sha256 "db00e96f123daf5b4004ed54bc503bc83784a2b5d3c83f4b1aa3e349aed1abe1"
+  version "0.6.0"
+  sha256 "d869c25e9c135f4d0406c4540375bd3dfcb3ef0a1789744971ef0c4f921628ac"
 
   url "https://github.com/CristianRojas-SoftwareEngineer/TTS-Sidecar/releases/download/v#{version}/tts-sidecar-#{version}-arm64.dmg"
   name "TTS Sidecar"
