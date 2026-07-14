@@ -1,6 +1,6 @@
 cask "tts-sidecar" do
-  version "0.6.0"
-  sha256 "d869c25e9c135f4d0406c4540375bd3dfcb3ef0a1789744971ef0c4f921628ac"
+  version "0.7.2"
+  sha256 "03807d4e1b9c0de2fc3132d2a5c7b2b4d48de4048154d6307ffc6d084a609aca"
 
   url "https://github.com/CristianRojas-SoftwareEngineer/TTS-Sidecar/releases/download/v#{version}/tts-sidecar-#{version}-arm64.dmg"
   name "TTS Sidecar"
@@ -27,5 +27,10 @@ cask "tts-sidecar" do
     El modelo de voz (es-mx-latam, varios cientos de MB) no viene incluido:
     descargalo una sola vez con:
       tts-sidecar setup
+
+    Licencia: GPL-3.0-or-later. La oferta de codigo fuente (GPLv3 seccion 6)
+    y las atribuciones de terceros viajan dentro del bundle instalado:
+      #{appdir}/tts-sidecar-arm64.app/Contents/Resources/SOURCE-OFFER.md
+      #{appdir}/tts-sidecar-arm64.app/Contents/Resources/THIRD-PARTY-LICENSES.md
   EOS
 end
